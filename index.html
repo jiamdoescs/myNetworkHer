@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>myNetworkHer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Poppins,sans-serif;
+    color:#222;
+    background:white;
+    line-height:1.6;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:60px 30px;
+}
+
+.logo{
+    display:flex;
+    justify-content:center;
+    margin-bottom:35px;
+}
+
+.logo img{
+    width:90px;
+}
+
+p{
+    font-size:1.35rem;
+    margin-bottom:28px;
+}
+
+.bold{
+    font-weight:700;
+}
+
+a{
+    color:#bf42ff;
+    font-weight:600;
+}
+
+.videos{
+    margin-top:50px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(450px,1fr));
+    gap:30px;
+}
+
+iframe{
+    width:100%;
+    aspect-ratio:16/9;
+    border:none;
+    border-radius:12px;
+}
+
+.screenshot{
+    margin-top:40px;
+    text-align:center;
+}
+
+.screenshot img{
+    width:100%;
+    max-width:900px;
+    border-radius:10px;
+    box-shadow:0 10px 35px rgba(0,0,0,.15);
+}
+
+.footer{
+    margin-top:60px;
+    font-size:1rem;
+    color:#777;
+    text-align:center;
+}
+
+@media(max-width:700px){
+
+p{
+font-size:1.1rem;
+}
+
+.videos{
+grid-template-columns:1fr;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">
+<img src="bird.png" alt="myNetworkHer">
+</div>
+
+<p>
+After four years of dedication to the myNetworkHer platform and community, we have decided to devote our time to new projects and our academic studies. Thank you for all of your support and for helping us build something we are incredibly proud of. What started as a Google Sheet became a platform connecting thousands of women in STEM.
+</p>
+
+<p>
+Thank you to every mentor, interviewee, mentee, volunteer, ambassador, and team member who made this possible.
+</p>
+
+<p class="bold">
+To the entire <a href="https://www.rileysway.org/" target="_blank">Riley's Way Foundation</a> team and our mentor, Lauren Shenkman: thank you for your unwavering support and mentorship.
+</p>
+
+<p>
+Thank you to our advisor, Morgan Young.
+</p>
+
+<p>
+Follow <strong>@mynetworkher</strong> for future updates, and visit our YouTube channel to hear from the brilliant women in STEM who continue to inspire us.
+</p>
+
+<p>
+Love,<br>
+Jia and Taja
+</p>
+
+<div class="videos">
+
+<iframe
+src="https://www.youtube.com/embed/e4OqIl1jIHM"
+allowfullscreen>
+</iframe>
+
+<iframe
+src="https://www.youtube.com/embed/vS0111Rl_Io"
+allowfullscreen>
+</iframe>
+
+</div>
+
+<div class="screenshot">
+<img src="website.png" alt="Previous myNetworkHer website">
+</div>
+
+<div class="footer">
+© myNetworkHer
+</div>
+
+</div>
+
+</body>
+</html>
